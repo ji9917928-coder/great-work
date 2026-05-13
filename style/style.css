@@ -171,6 +171,7 @@
     border-radius: 8px;
     padding: 20px 36px;
 }
+/* footer section  */
 .footer-content{
     background-color: black;
     margin-top: 130px;
@@ -186,6 +187,9 @@
 .footer-box{
     width: 485px;
     /* height: 317px; */
+}
+.footer-box .social-icon{
+    margin-right: 17px;
 }
 .footer-box h2 {
 font-size: 45px;
