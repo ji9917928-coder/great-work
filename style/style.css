@@ -10,17 +10,18 @@
 }
   /* <!-- hero section  --> */
 .hero{
+     /* padding-bottom: 166px; */
     /* display: flex; */
     /* align-items: center; */
     /* text-align: right; */
     padding:   285px;
     background-image: url('./banner3.png');
     background-size:cover;
-    /* padding-bottom: 166px; */
     background-position:center;
     background-repeat:no-repeat;
-    /* height:100vh; */
-    /* margin: 0; */
+    height:120vh;
+    width: 100%;
+    /* margin-right: 230px; */
 
     /* margin-right:-990px; */
 
@@ -30,13 +31,13 @@
     /* text-align: left;
     justify-content: left; */
     display:flex;
-    justify-content: right;
+    justify-content: end;
 }
 .hero-text h2{
     font-size: 65px;
     font-weight:700 ;
     margin-bottom: 24px;
-    color:#151414;
+    color:white;
      /* width: 525px; */
      /* text-align: right; */
      /* height: 228px; */
@@ -54,15 +55,118 @@
     color: #005FAC;
 
 }
-/* .hero-text p{
-    width: 394px;
-    height:998px;
-} */
+.hero-text p{
+    /* width: 394px;
+    height:998px; */
+    color: white;
+}
 .hero-text{
+    padding-top:216px;
+    /* padding-right: 230px; */
     width: 500px;
      /* display: flex; */
-    text-align: right;    /* align-items: right; */
+    text-align: right;    
+    /* align-items: right;  */
     /* justify-content: end;    */
      /* text-align: right;  */
     /* margin-left: 100px; */
+}
+/* about section  */
+.about-content{
+    display: flex;
+    align-items: center;
+    padding-left: 206px;
+    margin-top: 120px;
+    gap: 90px;
+    /* width: 1072px; */
+}
+.about-parent h1{
+    max-width: 288px;
+    font-size:40px;
+    margin-bottom:20px ;
+}
+.about-parent{
+    padding-top: 214px;
+}
+.about-parent p{
+    line-height: 26px;
+    margin-bottom: 15px;
+    font-size:16px;
+    max-width: 418px;
+}
+.about-parent li{
+    list-style: none;
+    margin-bottom: 10px;
+    
+}
+.about-parent i{
+   color:chartreuse;
+}
+/* My Plans  */
+.my-plans{
+    /* max-width: 1140px; */
+    margin-top: 130px;
+    /* align-items: center; */
+}
+.my-plans h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+.my-card-parent{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 230px;
+    padding-right:229px ;
+    
+}
+.my-card h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.my-card p{
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 16px;
+  color: #737272;
+}
+/* Banner section  */
+.banner-parent{
+    /* margin-top:none; */
+    /* margin:0 230px; */
+    max-width: 1240px;
+    background-image: linear-gradient(to right,rgba(34, 115, 229, 0.9),rgba(0, 0, 0, 0.1)), url('./watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:130px;
+    padding: 60px;
+    background-color: #005FAC;
+    border-radius: 20px;
+    border: none;
+}
+.banner-child h2{
+    max-width: 460px;
+    font-size: 40px;
+    font-weight: 700;
+    /* background:white */
+    color: white;
+
+
+}
+ .banner-child .banner-btn{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 36px;
 }
